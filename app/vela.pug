@@ -1,0 +1,13 @@
+include html/head/head
+include html/header/header
+include html/footer/footer
+include html/components/components
+
+doctype	html
+html
+	+head(head.index)
+	body
+		.pageContainer
+			+header()
+			main
+			+footer()
