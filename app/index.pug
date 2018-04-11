@@ -1,0 +1,13 @@
+include pug/head/head
+include pug/header/header
+include pug/footer/footer
+include pug/components/components
+
+doctype html
+html
+  +head(head.index)
+  body
+    .page-container
+      +header()
+      main
+      +footer()
